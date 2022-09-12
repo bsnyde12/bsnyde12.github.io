@@ -1,8 +1,17 @@
+body {
+    background-color: #333333;
+    color: rgb(255, 255, 254);
+}
+
 main p {
     text-align: center;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+main b {
+    color: #33CCFF;
 }
 
 footer {
@@ -14,9 +23,18 @@ h2 {
 }
 
 img {
+    border: 8.75px solid gray;
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 37.5%;
     width: 37.5%
+}
+
+ins {
+    color: #33CCFF;
+}
+
+a {
+    text-decoration: none;
 }
